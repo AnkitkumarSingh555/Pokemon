@@ -66,7 +66,7 @@ function prevPage() {
 }
 
 function nextPage() {
-  if (currentPage < 26) { // Assuming 5 pages
+  if (currentPage < 26) { 
     currentPage++;
     updateTable(currentPage);
   }
